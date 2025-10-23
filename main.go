@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "proxy/internal/server"
 
 func main() {
-	fmt.Println("Hello, Go!")
+	server.Start()
 }
